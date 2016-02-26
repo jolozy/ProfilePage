@@ -1,0 +1,125 @@
+/*# sourceMappingURL=style.css.map */
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+/* Navigation bar */
+.navBar {
+  padding: 20px; }
+
+.navBar img {
+  max-width: 120px;
+  padding: 5px;
+  justify-content: space-around; }
+  .navBar img:hover {
+    background: #42636f; }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #AEC6CF; }
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #DCDCDC; }
+
+/* Profile pic */
+body img {
+  width: 100%; }
+
+/* Name */
+.title {
+  padding: 20px;
+  background: #AEC6CF;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 10px; }
+
+h3 {
+  font-size: 15px;
+  font-style: italic;
+  color: #42636f; }
+
+/* All text */
+body article {
+  padding: 90px;
+  font-family: Avenir; }
+
+.textBlock {
+  font-size: 20px; }
+
+#textTitle {
+  font-size: 30px;
+  font-style: italic;
+  color: #42636f;
+  margin-top: 10px; }
+
+#box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+/* All lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd; }
+
+ul li {
+  padding: 10px 30px;
+  border-bottom: 1px solid #6e99a9; }
+
+ul li:last-child {
+  border-bottom: none; }
+
+/* hr line break */
+hr {
+  display: block;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 80%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #ffffff; }
+
+/* All links */
+a {
+  text-decoration: none;
+  color: #4682B4; }
+
+a:hover {
+  color: hotpink; }
+
+#one {
+  width: 100%;
+  text-align: center; }
+
+#two {
+  width: 100%;
+  text-align: center; }
+
+/*Desktop view*/
+@media only screen and (min-width: 640px) {
+  /*put style here*/
+  #line {
+    display: none; }
+
+  .textBlock {
+    font-size: 3em; }
+
+  ol {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd; }
+
+  ol li {
+    padding: 10px 30px;
+    border-bottom: 1px solid #6e99a9; } }
+
+/*# sourceMappingURL=style.css.map */
